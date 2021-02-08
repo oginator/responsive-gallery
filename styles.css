@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: auto 40px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#tekst {
+    max-width: 1200px;
+    width: 90%;
+    margin: 20px 10px 0px 40px;
+    padding: 30px auto;
+
+}
+
+.grid-container {
+  display: grid;
+  max-width: 1220px;
+        width: 90%;
+        margin: 40px 40px;
+        padding: 20px auto;
+ 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 180px));
+        grid-gap: 80px;
+        grid-template-rows: 130px;
+        
+}
+
+.box {
+    background-image: url("placeholder-image.png");
+    background-position: center top; 
+    background-size: 150px;
+    background-position-y: top;
+    background-image: url("placeholder-image.png"), linear-gradient( #6CA2D9 80% , #f8f0f0 80%);
+    border-radius: 7%;
+    text-align: center;
+    line-height: 234px;
+    width: 180px;
+    height: 130px ;
+    
+    
+}
+
+
